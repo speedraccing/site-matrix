@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href={contact.social.linkedin}
-                className="p-2 text-gray-400 hover:text-cyan-400 hover:bg-gray-800 rounded-lg transition-all duration-300"
+                className="p-2 text-gray-400 hover:text-green-400 hover:bg-gray-800 hover:drop-shadow-[0_0_10px_rgba(0,255,0,0.4)] rounded-lg transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ const Footer = () => {
               </a>
               <a
                 href={contact.social.github}
-                className="p-2 text-gray-400 hover:text-cyan-400 hover:bg-gray-800 rounded-lg transition-all duration-300"
+                className="p-2 text-gray-400 hover:text-green-400 hover:bg-gray-800 hover:drop-shadow-[0_0_10px_rgba(0,255,0,0.4)] rounded-lg transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ const Footer = () => {
               </a>
               <a
                 href={contact.social.instagram}
-                className="p-2 text-gray-400 hover:text-cyan-400 hover:bg-gray-800 rounded-lg transition-all duration-300"
+                className="p-2 text-gray-400 hover:text-green-400 hover:bg-gray-800 hover:drop-shadow-[0_0_10px_rgba(0,255,0,0.4)] rounded-lg transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
