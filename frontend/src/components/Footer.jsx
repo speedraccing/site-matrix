@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
@@ -49,23 +49,6 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-white font-semibold mb-4">Links Rápidos</h3>
-            <ul className="space-y-2">
-              {['Home', 'Sobre', 'Portfólio', 'Contato'].map((item, index) => (
-                <li key={item}>
-                  <Link
-                    to={index === 0 ? '/' : `/${item.toLowerCase()}`}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* Contact Info */}
