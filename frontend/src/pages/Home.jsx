@@ -121,8 +121,8 @@ const Home = () => {
               const IconComponent = iconMap[stat.icon];
               return (
                 <div key={index} className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="h-8 w-8 text-white" />
+                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300 hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.8)] hover:scale-110">
+                    <IconComponent className="h-8 w-8 text-black" />
                   </div>
                   <div className="text-3xl md:text-4xl font-bold text-white mb-2">
                     {stat.value}
