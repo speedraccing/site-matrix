@@ -63,9 +63,9 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-3 py-2 text-sm font-medium transition-all duration-300 hover:text-cyan-400 hover:bg-gray-800 rounded-md ${
+                  className={`px-3 py-2 text-sm font-medium transition-all duration-300 hover:text-green-400 hover:bg-gray-800 hover:drop-shadow-[0_0_8px_rgba(0,255,0,0.3)] rounded-md ${
                     isActive(item.href)
-                      ? 'text-cyan-400 bg-gray-800'
+                      ? 'text-green-400 bg-gray-800 drop-shadow-[0_0_8px_rgba(0,255,0,0.3)]'
                       : 'text-gray-300'
                   }`}
                 >
