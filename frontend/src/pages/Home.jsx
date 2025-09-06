@@ -49,7 +49,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 asChild 
-                className="bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 text-white px-8 py-3 text-lg"
+                className="bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-3 text-lg transition-all duration-300 hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.6)] hover:scale-105"
               >
                 <Link to="/portfolio">
                   Ver Portfólio
@@ -59,7 +59,7 @@ const Home = () => {
               <Button 
                 asChild 
                 variant="outline" 
-                className="border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-gray-950 px-8 py-3 text-lg"
+                className="border-green-500 text-green-400 hover:bg-green-500 hover:text-black hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.6)] px-8 py-3 text-lg transition-all duration-300"
               >
                 <Link to="/contact">
                   Fale Conosco
