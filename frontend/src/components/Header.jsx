@@ -20,13 +20,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-to-r from-cyan-400 to-green-400 rounded-lg group-hover:from-green-400 group-hover:to-cyan-400 transition-all duration-300">
-              <Code className="h-6 w-6 text-gray-950" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">
-              Matrix Code
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_matrix-dashboards/artifacts/gyhsbi5l_matrix_code_header.png"
+              alt="Matrix Code"
+              className="h-10 w-auto transition-all duration-300 group-hover:brightness-110 group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
