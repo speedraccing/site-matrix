@@ -36,7 +36,7 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-cyan-400 via-green-400 to-cyan-400 bg-clip-text text-transparent">
+              <span className="text-green-400 drop-shadow-[0_0_20px_rgba(0,255,0,0.8)] animate-pulse">
                 {company.name}
               </span>
             </h1>
