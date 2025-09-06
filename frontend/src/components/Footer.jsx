@@ -12,13 +12,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="p-2 bg-gradient-to-r from-cyan-400 to-green-400 rounded-lg">
-                <Code className="h-6 w-6 text-gray-950" />
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">
-                Matrix Code
-              </span>
+            <div className="flex items-center mb-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_matrix-dashboards/artifacts/gyhsbi5l_matrix_code_header.png"
+                alt="Matrix Code"
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Transformando dados em decisões inteligentes através de dashboards,
