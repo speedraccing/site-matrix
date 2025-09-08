@@ -91,7 +91,7 @@ const Portfolio = () => {
                   <div className="flex justify-between items-start">
                     <div>
                       <CardTitle className="text-white mb-2">{project.title}</CardTitle>
-                      <Badge variant="outline" className="border-cyan-500 text-cyan-400 mb-3">
+                      <Badge variant="outline" className="border-green-500 text-green-400 mb-3">
                         {project.category}
                       </Badge>
                     </div>
