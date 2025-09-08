@@ -93,9 +93,9 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member) => (
-              <Card key={member.id} className="bg-gray-800/50 border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:transform hover:scale-105">
+              <Card key={member.id} className="bg-gray-900/80 border-gray-700 hover:border-green-500/70 hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.3)] transition-all duration-300 hover:transform hover:scale-105">
                 <CardHeader className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-2 border-cyan-500/50">
+                  <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-2 border-green-500/50 hover:border-green-400 hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)] transition-all duration-300">
                     <img 
                       src={member.image} 
                       alt={member.name}
