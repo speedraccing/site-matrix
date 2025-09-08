@@ -63,7 +63,7 @@ const Contact = () => {
             {/* Contact Information */}
             <div>
               <h2 className="text-3xl font-bold text-white mb-8">
-                Vamos <span className="text-cyan-400">Conversar</span>
+                Vamos <span className="text-green-400 drop-shadow-[0_0_10px_rgba(0,255,0,0.6)]">Conversar</span>
               </h2>
               <p className="text-gray-300 mb-8 text-lg">
                 Estamos aqui para ajudar você a transformar suas ideias em soluções 
