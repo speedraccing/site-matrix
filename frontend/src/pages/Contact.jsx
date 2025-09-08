@@ -196,7 +196,7 @@ const Contact = () => {
                           type="text"
                           value={formData.company}
                           onChange={handleInputChange}
-                          className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-cyan-500"
+                          className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-500 focus:ring-green-500/50 transition-all duration-300"
                           placeholder="Nome da empresa"
                         />
                       </div>
