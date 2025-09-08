@@ -55,8 +55,8 @@ const Portfolio = () => {
                 onClick={() => setSelectedCategory(category)}
                 className={
                   selectedCategory === category
-                    ? "bg-gradient-to-r from-cyan-500 to-green-500 text-white"
-                    : "border-gray-600 text-gray-300 hover:border-cyan-500 hover:text-cyan-400"
+                    ? "bg-green-500 text-black font-bold hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)]"
+                    : "border-gray-600 text-gray-300 hover:border-green-500 hover:text-green-400 hover:drop-shadow-[0_0_10px_rgba(0,255,0,0.4)]"
                 }
               >
                 {category}
