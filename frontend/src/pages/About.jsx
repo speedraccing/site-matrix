@@ -122,7 +122,7 @@ const About = () => {
       <section className="py-20 bg-gray-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-cyan-400">Tecnologias</span> que Dominamos
+            <span className="text-green-400 drop-shadow-[0_0_10px_rgba(0,255,0,0.6)]">Tecnologias</span> que Dominamos
           </h2>
           <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
             Utilizamos as mais modernas tecnologias para criar soluções robustas e escaláveis
