@@ -84,7 +84,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Nossa <span className="text-cyan-400">Equipe</span>
+              Nossa <span className="text-green-400 drop-shadow-[0_0_10px_rgba(0,255,0,0.6)]">Equipe</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Profissionais apaixonados por tecnologia e inovação
