@@ -103,7 +103,7 @@ const About = () => {
                     />
                   </div>
                   <CardTitle className="text-white">{member.name}</CardTitle>
-                  <CardDescription className="text-cyan-400 font-semibold">
+                  <CardDescription className="text-green-400 font-semibold">
                     {member.role}
                   </CardDescription>
                 </CardHeader>
