@@ -134,7 +134,7 @@ const About = () => {
               'MongoDB', 'Docker', 'AWS', 'Next.js',
               'TypeScript', 'GraphQL', 'Redis', 'Kubernetes'
             ].map((tech, index) => (
-              <div key={index} className="p-4 bg-gray-800/50 rounded-lg border border-gray-700 hover:border-cyan-500/50 transition-all duration-300">
+              <div key={index} className="p-4 bg-gray-900/80 rounded-lg border border-gray-700 hover:border-green-500/70 hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.3)] transition-all duration-300 hover:scale-105">
                 <span className="text-gray-300 font-medium">{tech}</span>
               </div>
             ))}
