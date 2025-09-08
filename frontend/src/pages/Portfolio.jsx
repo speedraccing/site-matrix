@@ -117,7 +117,7 @@ const Portfolio = () => {
                   {/* Action Buttons */}
                   <div className="flex gap-3">
                     <Button 
-                      className="flex-1 bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 text-white"
+                      className="flex-1 bg-green-500 hover:bg-green-400 text-black font-bold transition-all duration-300 hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)] hover:scale-105"
                       onClick={() => console.log('Ver projeto:', project.title)}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
@@ -125,7 +125,7 @@ const Portfolio = () => {
                     </Button>
                     <Button 
                       variant="outline" 
-                      className="border-gray-600 text-gray-300 hover:border-cyan-500 hover:text-cyan-400"
+                      className="border-gray-600 text-gray-300 hover:border-green-500 hover:text-green-400 hover:drop-shadow-[0_0_10px_rgba(0,255,0,0.4)] transition-all duration-300"
                       onClick={() => console.log('Ver código:', project.title)}
                     >
                       <Github className="w-4 h-4" />
