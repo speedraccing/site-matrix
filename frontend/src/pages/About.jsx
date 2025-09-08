@@ -57,10 +57,10 @@ const About = () => {
             </Card>
 
             {/* Values */}
-            <Card className="bg-gray-800/50 border-gray-700 hover:border-cyan-500/50 transition-all duration-300">
+            <Card className="bg-gray-900/80 border-gray-700 hover:border-green-500/70 hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.3)] transition-all duration-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-green-500 rounded-lg flex items-center justify-center mb-4">
-                  <Heart className="h-6 w-6 text-white" />
+                <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mb-4 hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.8)] transition-all duration-300">
+                  <Heart className="h-6 w-6 text-black" />
                 </div>
                 <CardTitle className="text-white">Nossos Valores</CardTitle>
               </CardHeader>
