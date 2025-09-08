@@ -149,7 +149,7 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div>
-              <Card className="bg-gray-800/50 border-gray-700">
+              <Card className="bg-gray-900/80 border-gray-700 hover:border-green-500/50 transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="text-white text-2xl">Envie uma Mensagem</CardTitle>
                   <CardDescription className="text-gray-300">
