@@ -71,7 +71,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {filteredProjects.map((project) => (
-              <Card key={project.id} className="bg-gray-800/50 border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:transform hover:scale-105 overflow-hidden">
+              <Card key={project.id} className="bg-gray-900/80 border-gray-700 hover:border-green-500/70 hover:drop-shadow-[0_0_20px_rgba(0,255,0,0.3)] transition-all duration-300 hover:transform hover:scale-105 overflow-hidden">
                 {/* Project Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img 
