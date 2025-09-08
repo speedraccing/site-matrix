@@ -121,7 +121,7 @@ const Contact = () => {
                 <div className="flex space-x-4">
                   <a
                     href={contact.social.linkedin}
-                    className="p-3 bg-gray-800 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-white"
+                    className="p-3 bg-gray-800 hover:bg-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-black hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)]"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -129,7 +129,7 @@ const Contact = () => {
                   </a>
                   <a
                     href={contact.social.github}
-                    className="p-3 bg-gray-800 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-white"
+                    className="p-3 bg-gray-800 hover:bg-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-black hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)]"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -137,7 +137,7 @@ const Contact = () => {
                   </a>
                   <a
                     href={contact.social.instagram}
-                    className="p-3 bg-gray-800 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-white"
+                    className="p-3 bg-gray-800 hover:bg-green-500 rounded-lg transition-all duration-300 text-gray-300 hover:text-black hover:drop-shadow-[0_0_15px_rgba(0,255,0,0.6)]"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
