@@ -33,7 +33,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Nosso <span className="text-cyan-400">Portfólio</span>
+              Nosso <span className="text-green-400 drop-shadow-[0_0_15px_rgba(0,255,0,0.6)]">Portfólio</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Conheça alguns dos projetos que desenvolvemos e as soluções 
